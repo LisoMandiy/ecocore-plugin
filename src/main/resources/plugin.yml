@@ -1,0 +1,20 @@
+name: EcoCore
+version: 1.0.0
+main: gg.lisomandiy.ecocore.EcoCorePlugin
+api-version: 1.20
+author: LisoMandiy
+
+commands:
+  balance:
+    description: Показывает ваш баланс
+    usage: /balance [игрок]
+    aliases: [bal]
+  pay:
+    description: Переводит деньги другому игроку
+    usage: /pay <игрок> <сумма>
+  baltop:
+    description: Показывает самых богатых игроков
+    usage: /baltop
+  shop:
+    description: Открывает магазин предметов
+    usage: /shop
